@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #parent {
+        width: 250px;
+        height: 100px;
+        border: 3px solid blue;
+      }
+      /* parent child ilişkisi olduğunda width 40% dendiği zaman child parentın 40%'ı demek olur. */
+      #child {
+        width: 40%;
+        height: 50%;
+        border: 2px solid red;
+      }
+      .can {
+        max-height: 50px;
+        overflow: auto;
+      }
+      .canan {
+        max-width: 150px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Max Height ve Width</h1>
+    <p class="can">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+      distinctio ex voluptates voluptatum in earum at sunt incidunt corrupti
+      ullam rerum commodi, minus ipsam natus et quae quod ratione veniam
+      necessitatibus est quas provident harum neque! Incidunt doloremque,
+      pariatur cum mollitia enim explicabo asperiores fugit totam quos sequi
+      commodi. Cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Temporibus nemo incidunt ullam itaque?
+    </p>
+    <p class="canan">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+      distinctio ex voluptates voluptatum in earum at sunt incidunt corrupti
+      ullam rerum commodi, minus ipsam natus et quae quod ratione veniam
+      necessitatibus est quas provident harum neque! Incidunt doloremque,
+      pariatur cum mollitia enim explicabo asperiores fugit totam quos sequi
+      commodi. Cupiditate.
+    </p>
+
+    <div id="parent">
+      <div id="child">Css eğitimi müthiş gidiyor.</div>
+    </div>
+  </body>
+</html>

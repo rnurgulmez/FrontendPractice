@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 1px solid blue;
+        margin-left: 100px;
+      }
+      .can {
+        margin-left: inherit;
+      }
+      /*margin collapse özelliği: birbiriyle çakışan değerlerde büyük olan geçerli olur*/
+      h1{
+        margin: 100px;
+      }
+      h2{
+        20px
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Inherit Kullanımı</h2>
+    <div>
+      <p class="can">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+        reprehenderit dolorem incidunt, corporis odio inventore. Doloremque.
+      </p>
+    </div>
+    <h1>Komple Web</h1>
+    <h2>Komple Web</h2>
+  </body>
+</html>

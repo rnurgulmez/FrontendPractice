@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Stilleri</title>
+    <style>
+      p.dotted {
+        border-style: dotted;
+        border-width: thin;
+      }
+      p.dashed {
+        border-style: dashed;
+        border-width: 5px;
+      }
+      p.solid {
+        border-style: solid;
+      }
+      p.double {
+        /* saat yönünde üst sağ alt sol */
+        border-style: double;
+        border-width: 10px 2px 5px 3px;
+      }
+      p.groove {
+        border-style: groove;
+      }
+      p.mix {
+        border-style: dotted dashed solid double;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ridge,inset,outset,none,hidden,mix -->
+    <h1>Border Stilleri</h1>
+    <p class="dotted">Dotted Border</p>
+    <p class="dashed">Dashed Border</p>
+    <p class="solid">Solid Border</p>
+    <p class="double">Double Border</p>
+    <p class="groove">Groove Border</p>
+    <p class="mix">Mix Border</p>
+  </body>
+</html>
