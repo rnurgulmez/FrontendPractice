@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .imgbox {
+        float: left;
+        border: 1px solid black;
+        margin: 4px;
+        padding: 6px;
+        width: 150px;
+      }
+      button {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgbox" id="a">
+      Resim 1 <br />
+      <img src="cat1.jpg" style="width: 100%" />
+      <button onclick="removeelement()">Kaldır</button>
+    </div>
+    <div class="imgbox" id="b">
+      Resim 2 <br />
+      <img src="cat2.jpg" style="width: 100%" />
+      <button onclick="changeVisibility()">Gizle</button>
+    </div>
+    <div class="imgbox" id="c">
+      Resim 3 <br />
+      <img src="cat3.jpg" style="width: 100%" />
+      <button onclick="resetElement()">Resetle</button>
+    </div>
+    <script>
+      function removeelement() {
+        document.getElementById("a").style.display = "none";
+      }
+      function changeVisibility() {
+        document.getElementById("b").style.visibility = "hidden";
+      }
+      function resetElement() {
+        document.getElementById("a").style.display = "block";
+        document.getElementById("b").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>

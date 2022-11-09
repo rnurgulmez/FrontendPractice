@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      tr:hover {
+        background-color: darkkhaki;
+      }
+      /* strip özelliği odd ya da even */
+      tr:nth-child(odd) {
+        background-color: wheat;
+      }
+      table,
+      th,
+      td {
+        border-bottom: 1px solid black;
+      }
+      td {
+        text-align: left;
+        height: 50px;
+        padding: 15px;
+      }
+      th {
+        height: 100px;
+        text-align: left;
+        vertical-align: bottom;
+        padding: 15px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- responsive özelliğinin bozulmaması için -->
+    <div style="overflow-x: auto">
+      <table>
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+          <th>Soyisim</th>
+        </tr>
+        <tr>
+          <td>Can</td>
+          <td>Yılmaz</td>
+        </tr>
+        <tr>
+          <td>Hasan</td>
+          <td>Hüseyin</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

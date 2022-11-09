@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p,
+      #a {
+        font-size: 20px;
+        margin: auto;
+        background-color: aqua;
+        border: 1px solid red;
+        padding: 15px;
+        text-align: center;
+      }
+      #a {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p onclick="goster()">Paneli Göster</p>
+    <div id="a">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+      praesentium vitae reiciendis dolor illum, recusandae, enim amet quos
+      consequuntur quo modi maxime exercitationem molestias tenetur ea
+      blanditiis, nesciunt ducimus eligendi. Beatae eius, quaerat inventore
+      veritatis maiores, odit reiciendis a rerum error nemo tempore,
+      consequuntur saepe et recusandae nihil corrupti. Aliquam iste, facere
+      consectetur eum dignissimos iure vero sunt, inventore voluptatem magni
+      eveniet nulla neque dolores a nam nostrum dolorem quidem molestias minus.
+      Dolore soluta exercitationem quo quod quos eligendi nisi aspernatur
+      doloribus incidunt minus explicabo est inventore unde perspiciatis, saepe
+      error molestias quis placeat fugiat! Sed quo esse laboriosam dicta natus
+      officia numquam aperiam temporibus quaerat pariatur voluptates at
+      reprehenderit provident animi laborum nihil totam dolor vel mollitia,
+      tempora tenetur! Ex cumque magni quam? Nam nemo veniam magni suscipit
+      numquam mollitia cupiditate necessitatibus fuga minus dicta eveniet
+      repellat labore consequatur, ratione maiores tempora eligendi dolorem rem
+      eos autem sunt quam.
+    </div>
+    <button id="b" onclick="gizle()">Gizle</button>
+    <script>
+      function goster() {
+        document.getElementById("a").style.display = "block";
+      }
+      function gizle() {
+        document.getElementById("a").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
